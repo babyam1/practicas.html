@@ -1,0 +1,98 @@
+@font-face{
+    font-family: "mi fuente";
+    src: url(font/Diplomata-Regular.ttf);
+}
+
+@font-face{
+    font-family: "mi fuente2";
+    src: url(font/GrenzeGotisch-VariableFont_wght.ttf);
+}
+
+
+body{
+
+    background-color: black;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  
+}
+
+h1{
+
+    font-family: "mi fuente2";
+    margin-top: 40px;
+    color:blueviolet;
+    margin-bottom: 15px;
+
+}
+
+a{
+
+    font-family: "mi fuente";
+    color:white;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none; /*para que no salga el subrayado*/
+    
+}
+
+
+a:hover{
+
+    font-family: "mi fuente2";
+    color:coral;
+    font-size: 50px;
+    margin: 10px;
+    
+}
+
+/*Barra de navegación*/
+
+nav{
+
+    border-radius: 15px;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 35%;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+nav a{
+
+    color:white;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none; /*para que no salga el subrayado*/
+    justify-content: center;
+    /*padding: 5px 5px;
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3;*/
+
+    
+}
+
+nav a:hover{
+
+    font-family: "mi fuente2";
+    color:coral;
+    font-size: 35px;
+    margin: 10px;
+    
+}
+
+pre{
+
+    font-family: "mi fuente2";
+}
